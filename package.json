@@ -1,0 +1,27 @@
+{
+  "name": "autowebpack",
+  "version": "1.0.0",
+  "description": "打包工具",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "webpack --display-error-details"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riverpath/autowebpack.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "riverpath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riverpath/autowebpack/issues"
+  },
+  "homepage": "https://github.com/riverpath/autowebpack#readme",
+  "dependencies": {
+    "json-loader": "^0.5.4",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.4"
+  }
+}
